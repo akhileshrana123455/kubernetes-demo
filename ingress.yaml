@@ -11,6 +11,7 @@ metadata:
     alb.ingress.kubernetes.io/backend-protocol: HTTP
     alb.ingress.kubernetes.io/listen-ports: '[{"HTTP":80}]'
     alb.ingress.kubernetes.io/group.name: "nginx-alb-group"
+    alb.ingress.kubernetes.io/subnets: subnet-0501a1586633af4e8,subnet-050e23d7dc5674062
 spec:
   ingressClassName: alb
   rules:
